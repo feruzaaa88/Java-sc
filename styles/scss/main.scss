@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+}
+body {
+    background-color: #FAECD3;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 150px;
+    text-shadow: 3px 3px 15px yellow;
+}
+a {
+    all: unset;
+color: rgb(33, 19, 111);
+font-size: 50px;
+}
+.logoimg {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    padding: 10px 0;
+}
+header {
+    background-color: #FA9F5E;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex; 
+      gap: 50px;
+}
+li {
+    list-style: none;
+ font-size: 30px;
+}
+li:hover {
+    border: none;
+    border-bottom: 6px solid rgb(33, 19, 111);
+    transition: 0.5s ease-in;
+}
+.ab {
+    font-size: 20px;
+}
+.ab:hover {
+   color: rgb(8, 137, 148); 
+      font-size: 25px; 
+}
+.back {
+    border: 1px solid rgb(213, 180, 12);
+border-radius: 35px;
+    background-color: rgb(181, 232, 26);
+    text-align: center;
+    font-size: 20px;
+padding: 15px 25px;
+}
+.back:hover {
+    background-color: rgb(26, 232, 181); 
+}
+.bimg {
+    background-image: url(../../images/logoimg.jpg);
+}
+.hero-info {
+    display: block;
+    margin-left: 500px;
+   padding-top: 50px;
+   padding-bottom: 330px;
+   padding-left: 50px;
+   padding-right: 50px;
+
+}
+.hero-title {
+color: rgb(196, 66, 19);
+font-size: 50px;
+font-weight: 200;
+font-style: italic;
+
+}
+.hero-text {
+    color: rgb(146, 76, 27);
+font-size: 20px;
+font-weight: 200;
+font-style: italic;
+line-height: 30px;
+margin-top: 50px;
+}
+.card-item {
+    margin-top: 50px;
+    border: 6px solid #FA9F5E;
+    border-radius: 30px;
+    box-shadow: 0 0 8 grey;
+    padding: 30px 70px;
+}
+.mah-h {
+    font-size: 80px;
+}
+.mah-p {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 50px;
+    padding: 40px;
+    color: crimson;
+
+}
+.pfotos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer-info {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    border: none;
+    border-top: 3px solid rgb(36, 33, 33);
+}
+.logo-link {
+    font-size: 30px;
+color: dimgrey;
+}
+.link {
+    margin-left: 60px;
+    color: rgb(58, 54, 54);
+}
